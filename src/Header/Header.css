@@ -1,0 +1,56 @@
+
+/* Header */
+
+.header-content-wrapper{
+	display: flex;
+	flex-wrap: wrap;	
+}
+
+.site-header{
+	padding: 25px 15px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1;
+}
+
+.header-content-wrapper{
+	display: flex;
+	justify-content: space-between;		
+}
+
+.nav-list{
+	display: flex;
+	justify-content: space-between;	
+}
+
+.nav-list li{
+	margin-right: 32px;
+	color: #111;
+	font-size: 14px;
+	letter-spacing: 0.3em;
+	font-family: 'Dosis', sans-serif;
+	opacity: 0.7;
+	font-weight: 500;	
+	text-transform: uppercase;
+}
+
+.nav-list :last-of-type{
+	margin: 0;
+}
+
+header nav a:hover{	
+	color: black;
+	transition: 0.3s all ease-out;
+}
+
+.logo-svg {
+    width: 35%;
+    height: 35%;
+}
+
+.logo a img:hover{	
+	color: black;
+	transition: 0.3s all ease-out;
+}

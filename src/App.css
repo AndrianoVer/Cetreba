@@ -1,0 +1,87 @@
+/* ===== Reset start ===== */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	max-width: 100%;
+}
+ 
+/* HTML5 display-role reset for older browsers */
+ 
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+ 
+ol, ul {
+  list-style: none;
+}
+ 
+blockquote, q {
+  quotes: none;
+}
+ 
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+ 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* ===== Reset end ===== */
+
+/* page */
+
+.page{
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+}
+
+.container-xl{
+	max-width: 1200px;
+	width: 100%;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	text-transform: uppercase;
+	color: #111111;
+	line-height: 1.2;
+}
+
+h1{
+	font-size: 30px;
+	letter-spacing: 1.7em;
+}
