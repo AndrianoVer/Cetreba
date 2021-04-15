@@ -8,7 +8,6 @@
 
 .site-header{
 	padding: 25px 15px;
-	/* position: absolute; */
 	left: 0;
 	right: 0;
 	top: 0;
@@ -37,7 +36,7 @@
 }
 
 .nav-list :last-of-type{
-	margin: 0;
+	margin: 3px 0px 0px 0px;
 }
 
 header nav a:hover{	
@@ -49,7 +48,51 @@ header nav a:hover{
    position: relative;
    overflow:hidden;
    width:150px;
-   height:150px;
+   height: 80px;
 }
 
+.basket-logo{
+	background-image: url(../img/shopping-cart-black.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	width: 14px;
+    height: 14px;
+}
+
+.search-logo{
+	background-image: url(../img/search-icon-black.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	width: 14px;
+    height: 14px;
+}
+
+.search-logo:hover{
+	background-image: url(../img/search-icon-white.svg);
+	transition: 0.3s all ease-out;
+}
+
+.basket-logo:hover{
+	background-image: url(../img/shopping-cart-white.svg);
+	transition: 0.3s all ease-out;
+}
+
+.logo-svg{
+	position: absolute;
+    top: -35px;
+}
+
+.basket-box{
+	display: block;
+	margin-top: 3px;
+}
+
+.basket-logo,
+.search-logo{
+	display: inline-block;
+}
 
