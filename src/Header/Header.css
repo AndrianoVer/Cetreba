@@ -96,3 +96,40 @@ header nav a:hover{
 	display: inline-block;
 }
 
+/* Ex-Large devices (large desktops, 1200px and up) */
+/* Large devices (large desktops, 1200px and up) */
+/* Medium devices (desktops, 992px and up) */
+/* Small devices (tablets, 768px and up) */
+/* Extra small devices (phones, less than 768px) */
+
+@media all and (max-width: 768px), all and (max-width: 992px){
+	.site-navigation{
+		padding-top: 32px;
+	}	
+}
+
+/* @media (min-width: 640px) and (max-width: 767px) {...} */
+
+@media (max-width: 700px){
+	.nav-list li{
+		margin-right: 15px;
+	}	
+}
+
+
+@media (max-width: 610px){
+	.site-navigation{
+		display: none;
+	}
+	.header-content-wrapper{
+		justify-content: center;
+		align-items:center;
+	}	
+}
+
+
+
+
+
+
+
