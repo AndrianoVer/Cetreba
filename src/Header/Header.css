@@ -87,6 +87,10 @@ header nav a:hover{
     top: -35px;
 }
 
+.site-navigation {
+    padding-top: 32px;
+}
+
 .basket-box{
 	/* display: block; */
 	margin-top: 3px;
@@ -106,7 +110,7 @@ header nav a:hover{
 @media all and (max-width: 768px), all and (max-width: 992px){
 	.site-navigation{
 		padding-top: 32px;
-	}	
+	}
 } 
 
 /* @media (min-width: 640px) and (max-width: 767px) {...} */
@@ -127,6 +131,23 @@ header nav a:hover{
 
 	.header-content-wrapper {
 		justify-content: flex-end;
+	}
+	.nav-list{
+		display: flex;
+		flex-direction: column;
+	}
+	.site-navigation{
+		padding-top: 0;
+	}
+	.header-content-wrapper{
+		justify-content: space-between;
+		flex-direction: row-reverse;
+	}
+	.site-header{
+		padding: 10px 0px;
+	}
+	.page{
+		background-color: #00af9a;
 	}
 
 	/* Burger-menu */
@@ -149,10 +170,9 @@ header nav a:hover{
 		}
 	}
 
-	li {
+	li{
 		margin: 75px 0 -55px 0;
-		color: #03A9F4;
-		font: 14pt "Roboto", sans-serif;
+		color: black;
 		font-weight: 700;
 		line-height: 1.8;
 		text-decoration: none;
