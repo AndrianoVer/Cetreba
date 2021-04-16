@@ -1,7 +1,6 @@
 import React from 'react';
 import './Header.css';
 import logo from '../img/Logo Cetreba Black.svg';
-import basket from '../img/shopping-cart-black.svg';
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 
@@ -16,8 +15,11 @@ function Header() {
                 <img className='logo-svg' src={logo} alt='logo' />						
               </a>
             </div>
-            <Router>
+            <Router>              
               <nav className='site-navigation'>
+              <input type="checkbox" id="menu-toggle" />
+              <label id="trigger" for="menu-toggle"></label>
+              <label id="burger" for="menu-toggle"></label>
                 <ul className='nav-list'>
                   <li><Link to='/'>About</Link></li>
                   <li><Link to='/products'>Products</Link></li>
