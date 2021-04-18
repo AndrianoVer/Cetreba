@@ -92,7 +92,6 @@ header nav a:hover{
 }
 
 .basket-box{
-	/* display: block; */
 	margin-top: 3px;
 }
 
@@ -150,6 +149,17 @@ header nav a:hover{
 		background-color: #00af9a;
 	}
 
+	.basket-box{
+		margin-top: 0px;
+	}
+
+	.nav-list :last-of-type {
+		margin: 0;
+	}
+
+	.nav-list li {
+		margin-right: 0px;
+	}
 	/* Burger-menu */
 
 	@keyframes checked-anim {
@@ -171,7 +181,7 @@ header nav a:hover{
 	}
 
 	li{
-		margin: 75px 0 -55px 0;
+		margin: 0px 0 30px 0;
 		color: black;
 		font-weight: 700;
 		line-height: 1.8;

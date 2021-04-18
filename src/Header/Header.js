@@ -26,12 +26,12 @@ function Header() {
                   <li><Link to='/blog'>Blog</Link></li>
                   <li><Link to='/contacts'>Contact</Link></li>
                   <li className="basket-box">
-                    <a href="index.html">
+                    <a href="#.php">
                       <span className="basket-logo" alt='basket-logo'></span>
                     </a>
                   </li>
                   <li className="search-box">
-                    <a href="index.html">
+                    <a href="#.php">
                       <span className="search-logo" alt='search-logo'></span>
                     </a>
                   </li>								
