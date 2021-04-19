@@ -28,7 +28,7 @@
 .nav-list li{
 	margin-right: 32px;
 	color: #111;
-	font-size: 12px;
+	font-size: 14px;
 	letter-spacing: 0.3em;
 	font-family: 'Montserrat', sans-serif;
 	/* opacity: 0.7; */
@@ -92,7 +92,7 @@ header nav a:hover{
 }
 
 .basket-box{
-	margin-top: 3px;
+	margin-top: 1px;
 }
 
 .basket-logo,
@@ -156,6 +156,12 @@ header nav a:hover{
 	.nav-list li {
 		margin-right: 0px;
 	}
+	.logo-box {
+		height: 100px;
+	}
+	.logo-svg {
+		max-width: 120%;
+	}
 	/* Burger-menu */
 
 	@keyframes checked-anim {
@@ -167,7 +173,7 @@ header nav a:hover{
 			width: 300px;
 			height: 300px;
 			border-radius: 5px;
-			background-color: #19d3c5;
+			background-color: #00af9a;
 		}
 	}
 	@keyframes not-checked-anim {
@@ -187,8 +193,8 @@ header nav a:hover{
 		list-style: none;
 		outline: 0;
 		display: none;
-		/* width: 230px; */
-		/* text-indent: 56px; */
+		/* width: 230px; 
+		text-indent: 56px; */
 	}
 
 	li:focus {
@@ -269,6 +275,23 @@ header nav a:hover{
 	}
 
 }
+
+@media (max-width: 450px){
+	.nav-list {
+		margin-top: 115px;
+		background-color: transparent;
+		margin-left: 55px;
+		border-radius: 0px;
+		box-shadow: none;
+	}
+
+	/* .nav-list li{
+		margin-bottom: 0;
+	} */
+
+	
+}
+	
 
 
 
