@@ -100,24 +100,35 @@ header nav a:hover{
 	display: inline-block;
 }
 
+/* --------------------------------------------------- */
 /* Ex-Large devices (large desktops, 1200px and up) */
 /* Large devices (large desktops, 1200px and up) */
 /* Medium devices (desktops, 992px and up) */
 /* Small devices (tablets, 768px and up) */
 /* Extra small devices (phones, less than 768px) */
+/* --------------------------------------------------- */
 
 @media all and (max-width: 768px), all and (max-width: 992px){
 	.site-navigation{
 		padding-top: 32px;
 	}
+	
 } 
 
-/* @media (min-width: 640px) and (max-width: 767px) {...} */
+@media (max-width: 743px){
+	.header-content-wrapper {
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+
 
 @media (max-width: 700px){
-	.nav-list li{
-		margin-right: 15px;
-	}	
+	.header-content-wrapper {
+		justify-content: center;
+		align-items: center;
+	}
 }
 
 @media all and (max-width: 611px), all and (max-width: 3000px){
@@ -193,8 +204,6 @@ header nav a:hover{
 		list-style: none;
 		outline: 0;
 		display: none;
-		/* width: 230px; 
-		text-indent: 56px; */
 	}
 
 	li:focus {
@@ -262,6 +271,7 @@ header nav a:hover{
 		box-shadow: 0 2px 5px rgba(0,0,0,0.26);
 		animation: not-checked-anim .2s both;
 		transition: .2s;
+		top: 0;
 	}
 
 	#menu-toggle:checked + #trigger + #burger + .nav-list {
@@ -278,19 +288,74 @@ header nav a:hover{
 
 @media (max-width: 450px){
 	.nav-list {
-		margin-top: 115px;
+		top: 115px;
 		background-color: transparent;
 		margin-left: 55px;
 		border-radius: 0px;
 		box-shadow: none;
+	}	
+}
+
+@media (max-width: 430px){
+	.logo-svg {
+		max-width: 100%;
 	}
 
-	/* .nav-list li{
-		margin-bottom: 0;
-	} */
-
-	
+	.logo-svg {
+		position: absolute;
+		top: -35px;
+		left: 20px;
+	}
 }
+
+@media (max-width: 414px){
+	.nav-list {
+		margin-left: 35px;
+	}
+}
+
+@media (max-width: 400px){
+	.nav-list {
+		margin-left: 35px;
+	}
+}
+
+@media (max-width: 380px){
+	.nav-list {
+		margin-left: 25px;
+	}
+}
+
+@media (max-width: 360px){
+	.nav-list {
+		margin-left: 15px;
+	}
+}
+
+@media (max-width: 340px){
+	.logo-svg {
+		max-width: 85%;
+	}
+
+	.logo-svg {
+		position: absolute;
+		top: -25px;
+		left: 45px;
+	}
+}
+
+@media (max-width: 320px){
+	.nav-list {
+		margin-left: 5px;
+	}
+}
+
+@media (max-width: 300px){
+	.nav-list {
+		margin-left: 0;
+	}
+}
+
 	
 
 
