@@ -10,20 +10,31 @@
 
 .slide{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.slide .slide-item{
     flex-basis: 20%;
 }
 
 .slide-item{
+    position: relative;
     cursor: pointer;
 }
 
-.slide-item .line{
-    display: block;
+.slide-item .line-1{
+    position: absolute;
     width: 100%;
     height: 2px;
     background-color: #fff;
     margin-bottom: 5px;
+}
+
+.slide-item .line-2{
+    position: relative;
+    width: 20%;
+    height: 2px;
+    background-color: orangered;
 }
 
 
@@ -41,3 +52,4 @@
     font-size: 18px;
     font-weight: 700; 
 }
+
