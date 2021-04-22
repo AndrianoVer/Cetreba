@@ -1,0 +1,43 @@
+.container-xl h1{
+    font-size: 32px;
+    line-height: 52px;
+    color: black;
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 82px;
+    letter-spacing: 3px;
+}
+
+.slide{
+    display: flex;
+    justify-content: space-around;
+    flex-basis: 20%;
+}
+
+.slide-item{
+    cursor: pointer;
+}
+
+.slide-item .line{
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #fff;
+    margin-bottom: 5px;
+}
+
+
+.slide-item p{
+    display: inline-block;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+}
+
+.slide-item .number{
+    margin-right: 5px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700; 
+}
