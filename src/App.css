@@ -63,7 +63,7 @@ table {
 .container-xl{
 	position: relative;
 	max-width: 1200px;
-	background-color: #00af9a;
+	background-color: rgba(0, 175, 154, 0.7);
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;

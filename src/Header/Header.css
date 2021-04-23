@@ -12,7 +12,7 @@
 	left: 0;
 	right: 0;
 	top: 0;
-	z-index: 1;
+	z-index: 99;
 }
 
 .header-content-wrapper{
@@ -31,7 +31,6 @@
 	font-size: 14px;
 	letter-spacing: 0.3em;
 	font-family: 'Montserrat', sans-serif;
-	/* opacity: 0.7; */
 	font-weight: 500;	
 	text-transform: uppercase;
 }
@@ -121,8 +120,6 @@ header nav a:hover{
 		align-items: center;
 	}
 }
-
-
 
 @media (max-width: 700px){
 	.header-content-wrapper {

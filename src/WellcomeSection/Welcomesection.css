@@ -1,55 +1,88 @@
+.wellcome-section::before{
+  content: "";
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+	height: 100%;
+	background-color: rgba(0, 175, 154, 0.9)
+}
+
+.wellcome-section{
+	background-image: url(../img/20642-listya_tekstura.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	position: relative;
+  height: 100vh;
+}
+
 .container-xl h1{
-    font-size: 32px;
-    line-height: 52px;
-    color: black;
-    text-align: center;
-    font-weight: 700;
-    margin-bottom: 82px;
-    letter-spacing: 3px;
+  font-size: 32px;
+  line-height: 52px;
+  color: black;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 82px;
+  letter-spacing: 3px;
 }
 
 .slide{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .slide .slide-item{
-    flex-basis: 20%;
+  flex-basis: 20%;
 }
 
 .slide-item{
-    position: relative;
-    cursor: pointer;
+  position: relative;
+  cursor: pointer;
 }
 
 .slide-item .line-1{
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-    margin-bottom: 5px;
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  opacity: 0.7;
+  margin-bottom: 5px;
 }
 
 .slide-item .line-2{
-    position: relative;
-    width: 20%;
-    height: 2px;
-    background-color: orangered;
+  position: relative;
+  cursor: pointer;
 }
 
+.slide-item .line-2::after{
+  position: relative;
+  background-color: #ff6000;
+  display: block;
+  content: "";
+  height: 3px;
+  width: 0%;
+  transition: width .3s ease-in-out;
+}
+
+.slide-item .line-2:hover:after{
+    width: 25%;
+}
 
 .slide-item p{
-    display: inline-block;
-    color: #fff;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em; 
+  display: inline-block;
+  color: #fff;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em; 
 }
 
 .slide-item .number{
-    margin-right: 5px;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 700; 
+  margin-right: 5px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700; 
 }
 

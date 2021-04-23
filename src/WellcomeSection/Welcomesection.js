@@ -6,7 +6,7 @@ function WelcomeSection() {
   return (
     <>
       {/* WellcomeSection */}
-      <section>
+      <section className="wellcome-section">
         <div className="container-xl">
           <h1>Wellcome to CETREBA</h1>
           <div className="slide">
