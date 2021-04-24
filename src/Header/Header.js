@@ -6,9 +6,9 @@ import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom';
 
 function Header() {
   return (
-    <>
-      <div className="container-xl">
-        <header className='site-header'>
+    <>      
+      <header className='site-header'>
+        <div className="container-xl">
           <div className='header-content-wrapper'>
             <div className='logo-box'>
               <a href='index.html' className='logo'>
@@ -39,8 +39,8 @@ function Header() {
               </nav>
             </Router>            
           </div>
-        </header>          
-      </div>
+        </div>
+      </header>
     </>
   );
 }

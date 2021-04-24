@@ -3,6 +3,9 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	transition-property: all;
+	transition-duration: .6s;
+	transition-timing-function: ease;
 }
 
 body {
@@ -63,7 +66,7 @@ table {
 .container-xl{
 	position: relative;
 	max-width: 1200px;
-	background-color: rgba(0, 175, 154, 0.7);
+	/* background-color: rgba(0, 175, 154, 0.7); */
 	width: 100%;
 	padding-right: 15px;
 	padding-left: 15px;

@@ -1,3 +1,13 @@
+.wellcome-section{
+  position: relative;
+	background-image: url(../img/20642-listya_tekstura.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;	
+  height: 100vh;
+}
+
 .wellcome-section::before{
   content: "";
 	display: block;
@@ -9,29 +19,54 @@
 	background-color: rgba(0, 175, 154, 0.9)
 }
 
-.wellcome-section{
-	background-image: url(../img/20642-listya_tekstura.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	text-align: center;
-	position: relative;
+.section-md {
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.container-xl h1{
-  font-size: 32px;
-  line-height: 52px;
+.container-xl h1 {
+  font-size: 150px;
+  line-height: 140px;
   color: black;
   text-align: center;
   font-weight: 700;
-  margin-bottom: 82px;
   letter-spacing: 3px;
 }
 
 .slide{
   display: flex;
   justify-content: space-between;
+}
+
+.container-xl .btn-4 {
+  border: 1px solid;
+  overflow: hidden;
+  position: relative;
+}
+
+.btn-4 span {
+  z-index: 20;
+}
+
+.container-xl .btn-4:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: 0.2;
+  position: absolute;
+  top: -50px;
+  transform: rotate(35deg);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+
+.container-xl .btn-4:hover:after {
+  left: 120%;
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
 }
 
 .slide .slide-item{

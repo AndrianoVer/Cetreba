@@ -6,9 +6,10 @@ function WelcomeSection() {
   return (
     <>
       {/* WellcomeSection */}
-      <section className="wellcome-section">
+      <section className="wellcome-section section-md">
         <div className="container-xl">
-          <h1>Wellcome to CETREBA</h1>
+          <h1>Wellcome <p>to CETREBA</p></h1>
+          <button className="btn btn-4"><span>Learn More</span></button>
           <div className="slide">
             <div className="slide-item item-1">
               <div className="line-1"></div>
@@ -34,12 +35,9 @@ function WelcomeSection() {
               <span className="number">04</span>
               <p>Contact</p>
             </div>
-          </div>          
-        </div>
-        
-      </section>
-      
-      
+          </div>
+        </div>                  
+      </section>      
     </>
   );
 }
